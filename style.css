@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+  }
+  .container {
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  h1 { font-size: 2em; margin-bottom: 0.5em; }
+  .btn {
+    display: inline-block;
+    background: #4CAF50;
+    color: white;
+    padding: 10px 16px;
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 1em 0;
+  }
+  .btn:hover { background: #45a049; }
+  footer {
+    margin-top: 2em;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
