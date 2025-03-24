@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ultimate Cipher</title>
+  <style>
+    body { font-family: Arial, sans-serif; padding: 10px; width: 300px; }
+    textarea { width: 100%; height: 80px; margin-top: 5px; }
+    input[type="text"], input[type="number"] { width: 100%; margin-top: 5px; }
+    button { margin-top: 10px; width: 100%; padding: 8px; }
+  </style>
+</head>
+<body>
+  <h3>🔐 Ultimate Cipher</h3>
+  <label>Text:</label>
+  <textarea id="textInput"></textarea>
+
+  <label>Affine Key 'a':</label>
+  <input type="number" id="aKey" value="5" min="1">
+  <label>Affine Key 'b':</label>
+  <input type="number" id="bKey" value="8" min="0">
+  <label>Vigenere Key:</label>
+  <input type="text" id="vigKey" value="cipher">
+  <label>XOR Key:</label>
+  <input type="text" id="xorKey" value="secret">
+
+  <button id="encryptBtn">Encrypt & Paste to WhatsApp</button>
+  <button id="decryptBtn">Decrypt</button>
+
+  <label>Result:</label>
+  <textarea id="resultOutput" readonly></textarea>
+
+  <script src="popup.js"></script>
+</body>
+</html>
